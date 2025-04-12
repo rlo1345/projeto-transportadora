@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.texto {
+    text-align: left ;
+}
+.botao {
+    display: flex;
+    flex-flow: wrap;  
+}
+.botao1 {
+    padding: 8px 14px;
+}
+.botao2 {
+    padding: 8px 14px; 
+}
+.formulario {
+    width: 100%;
+    max-width: 400px;
+}  
+.atividades {
+    grid-template-columns: 1fr;
+} 
+.local {
+    grid-template-columns: 1fr;
+    gap: 30px;
+}   
+
