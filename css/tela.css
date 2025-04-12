@@ -1,0 +1,25 @@
+body {
+    overflow-x: hidden;
+  }
+
+  .container,
+  .header,
+  .footer,
+  .seu-wrapper-principal {
+    width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .botao-rastreio {
+    width: 100%;
+    text-align: center;
+  }
+  .atividades {
+    grid-template-columns:repeat(2, 1fr);
+}
